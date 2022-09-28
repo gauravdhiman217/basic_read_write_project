@@ -1,0 +1,1 @@
+ ggg/Users/HP/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/HP/Desktop/health system/exc 5 health management sys.py"
