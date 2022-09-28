@@ -9,29 +9,29 @@ def datetime():
     return datetime.datetime.now()
 
 
-# def write_diet(Name):
-#     """THis is to wrire diet of a person """
-#     if Name == 1:
-#         op = open("gauravdiet.txt", "r+")
-#         print("Please enter diet you want to register for gaurav\n")
-#         wr = input(datetime())
-#         op.write(wr)
-#         op.close()
-#         return print("Your response registered")
-#     if Name == 2:
-#         op = open("jassidiet.txt", "r+")
-#         print("Please enter diet you want to register for jassi\n")
-#         wr = input(datetime())
-#         op.write(wr)
-#         op.close()
-#         return print("Your response registered")
-#     if Name == 3:
-#         op = open("harrydiet.txt", "r+")
-#         print("Please enter diet you want to register for harry\n")
-#         wr = input(datetime())
-#         op.write(wr)
-#         op.close()
-#         return print("Your response registered")
+def write_diet(Name):
+    """THis is to wrire diet of a person """
+    if Name == 1:
+        op = open("gauravdiet.txt", "r+")
+        print("Please enter diet you want to register for gaurav\n")
+        wr = input(datetime())
+        op.write(wr)
+        op.close()
+        return print("Your response registered")
+    if Name == 2:
+        op = open("jassidiet.txt", "r+")
+        print("Please enter diet you want to register for jassi\n")
+        wr = input(datetime())
+        op.write(wr)
+        op.close()
+        return print("Your response registered")
+    if Name == 3:
+        op = open("harrydiet.txt", "r+")
+        print("Please enter diet you want to register for harry\n")
+        wr = input(datetime())
+        op.write(wr)
+        op.close()
+        return print("Your response registered")
 
 
 def read_diet(Name):
