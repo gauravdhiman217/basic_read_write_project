@@ -1,6 +1,4 @@
 # Health Management System
-print("***** Welcome to Health Management System ******")
-
 
 
 def datetime():
@@ -97,6 +95,7 @@ def read_ex(Name):
         return print(r)
 
 while True:
+    print("***** Welcome to Health Management System ******")
     Choice =int(input("Press 1 to Lock Diet/exercise and Press 0 to View Diet/ exercise\n"))
     work = int(input("Press 1 to for diet and Press 0 for excersie\n"))
     na = int(input("Press 1 for Gaurav, 2 for Jassi, 3 for Harry\n"))
